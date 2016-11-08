@@ -1,8 +1,8 @@
 from cis.test.runner import run
 import os
 
-# Disable multi proccesing on windows as it doesn't appear to work
-np = 0 if os.name == 'nt' else 1
+# Disable multi proccesing completely - the timeout is breaking builds on OS X as well now...
+np=0
 # Run the tests
 run('cis.test.unit', n_processors=np)
 
