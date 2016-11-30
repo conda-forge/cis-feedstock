@@ -52,7 +52,7 @@ test:
 
 about:
   home: http://www.cistools.net
-  license: GNU Lesser General Public License v3 or later (LGPLv3+)
+  license: LGPL3
   summary: 'Community Inter-comparison Suite'
 
 extra:
