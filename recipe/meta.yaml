@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: cis
@@ -7,7 +7,7 @@ package:
 source:
   fn: cis-{{ version }}.tar.gz
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
-  sha256: 215221db1b93a3b1d79f495aebc2096aec937c9f052328feeaac2a2a626c0122
+  sha256: 36328db4502854802796044f22cbc0f8289d6e6b41fef403a5ffe42c8b90812d
 
 build:
   number: 0
