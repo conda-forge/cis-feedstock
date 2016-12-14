@@ -3,13 +3,25 @@ About cis
 
 Home: http://www.cistools.net
 
-Package license: GNU Lesser General Public License v3 or later (LGPLv3+)
+Package license: LGPL3
 
 Feedstock license: BSD 3-Clause
 
 Summary: Community Inter-comparison Suite
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cis-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cis-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/cis-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cis-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cis-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cis-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cis/badges/version.svg)](https://anaconda.org/conda-forge/cis)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cis/badges/downloads.svg)](https://anaconda.org/conda-forge/cis)
 
 Installing cis
 ==============
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `cis` available on your platform w
 ```
 conda search cis --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cis-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cis-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cis-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cis-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cis-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cis-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cis/badges/version.svg)](https://anaconda.org/conda-forge/cis)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cis/badges/downloads.svg)](https://anaconda.org/conda-forge/cis)
 
 
 Updating cis-feedstock
