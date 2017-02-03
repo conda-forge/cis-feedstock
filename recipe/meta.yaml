@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: cis
@@ -7,7 +7,7 @@ package:
 source:
   fn: cis-{{ version }}.tar.gz
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
-  sha256: 36328db4502854802796044f22cbc0f8289d6e6b41fef403a5ffe42c8b90812d
+  sha256: 89e497bd3247dc66e547393b338137c8a1d43990eb46369c674fddda1c2df407
 
 build:
   number: 0
@@ -26,7 +26,6 @@ requirements:
     - psutil
     - pandas
     - pyhamcrest
-
   run:
     - python
     - matplotlib >=1.2.0
@@ -41,10 +40,8 @@ requirements:
 test:
   imports:
     - cis
-
   commands:
     - cis version
-
   requires:
     - mock
     - nose
@@ -57,4 +54,4 @@ about:
 
 extra:
   recipe-maintainers:
-     - duncanwp
+    - duncanwp
