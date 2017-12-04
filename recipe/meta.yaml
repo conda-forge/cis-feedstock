@@ -7,7 +7,7 @@ package:
 source:
   fn: cis-{{ version }}.tar.gz
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
-  sha256: 60a628ac282c7358e8c7266f3087d3fd7d9d2bcb5ea5c5a5010a652f7e00eeb8
+  sha256: 329e9474157837ef2e89629167a5b296f05f1b29d76a50fb880f5ecbd1fc068c
 
 build:
   number: 0
