@@ -14,14 +14,15 @@ Summary: Community Inter-comparison Suite
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cis-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cis-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cis-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cis-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cis-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cis-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cis-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cis-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cis/badges/version.svg)](https://anaconda.org/conda-forge/cis)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cis/badges/downloads.svg)](https://anaconda.org/conda-forge/cis)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cis-green.svg)](https://anaconda.org/conda-forge/cis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cis.svg)](https://anaconda.org/conda-forge/cis) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cis.svg)](https://anaconda.org/conda-forge/cis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cis.svg)](https://anaconda.org/conda-forge/cis) |
 
 Installing cis
 ==============
