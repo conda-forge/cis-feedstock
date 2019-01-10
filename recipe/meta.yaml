@@ -10,14 +10,14 @@ source:
   sha256: 22e08e9783bfd4b637500c77c7b44864a6f06123ffdebea52c9658dc8458284d
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 1000
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
+  host:
     - python
+    - pip
     - matplotlib >=1.2.0
-    - setuptools
     - netcdf4 >=1.0
     - numpy
     - scipy
@@ -30,7 +30,7 @@ requirements:
     - python
     - matplotlib >=1.2.0
     - netcdf4 >=1.0
-    - numpy
+    - {{ pin_compatible('numpy') }}
     - scipy
     - iris >=1.8.0
     - pyhdf
