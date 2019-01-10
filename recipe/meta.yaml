@@ -19,8 +19,8 @@ requirements:
     - pip
     - matplotlib >=1.2.0
     - netcdf4 >=1.0
-    - numpy
-    - scipy
+    - numpy 1.11.*
+    - scipy <1.2.0
     - iris >=1.8.0
     - pyhdf
     - psutil
@@ -31,7 +31,7 @@ requirements:
     - matplotlib >=1.2.0
     - netcdf4 >=1.0
     - {{ pin_compatible('numpy') }}
-    - scipy
+    - scipy <1.2.0
     - iris >=1.8.0
     - pyhdf
     - psutil
