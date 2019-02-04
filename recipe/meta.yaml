@@ -24,7 +24,7 @@ requirements:
     - iris >=2.0.0
     - pyhdf  # [osx, linux]
     - psutil
-    - pandas
+    - pandas < 0.24
     - pyhamcrest
   run:
     - python
@@ -35,7 +35,7 @@ requirements:
     - iris >=2.0.0
     - pyhdf  # [osx, linux]
     - psutil
-    - pandas
+    - pandas < 0.24
 
 test:
   imports:
