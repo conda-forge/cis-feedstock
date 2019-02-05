@@ -22,7 +22,7 @@ requirements:
     - numpy >=1.10,<1.16
     - scipy
     - iris >=2.0.0
-    - pyhdf [not win]
+    - pyhdf  # [not win]
     - psutil
     - pandas <0.24
     - pyhamcrest
@@ -33,7 +33,7 @@ requirements:
     - {{ pin_compatible('numpy') }}
     - scipy
     - iris >=2.0.0
-    - pyhdf [not win]
+    - pyhdf  # [not win]
     - psutil
     - pandas <0.24
 
