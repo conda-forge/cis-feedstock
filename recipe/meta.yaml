@@ -5,7 +5,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: cis-{{ version }}.tar.gz
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
   sha256: adb0c5de1b828b1e1e9c1d1b7996ca4a9c7cbf01c8b80987427a5f723a89cc8a
 
@@ -49,7 +48,8 @@ test:
 
 about:
   home: http://www.cistools.net
-  license: LGPL3
+  license: LGPL-3.0
+  license_file: COPYING
   summary: 'Community Inter-comparison Suite'
 
 extra:
