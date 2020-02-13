@@ -9,14 +9,14 @@ source:
   sha256: adb0c5de1b828b1e1e9c1d1b7996ca4a9c7cbf01c8b80987427a5f723a89cc8a
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
     - python
     - pip
-    - matplotlib >=2,<3
+    - matplotlib-base >=2,<3
     - netcdf4 >=1.0
     - numpy >=1.10,<1.16
     - scipy
@@ -27,7 +27,7 @@ requirements:
     - pyhamcrest
   run:
     - python
-    - matplotlib >=2,<3
+    - matplotlib-base >=2,<3
     - netcdf4 >=1.0
     - {{ pin_compatible('numpy') }}
     - scipy
