@@ -1,4 +1,4 @@
-{% set version = "1.7.1" %}
+{% set version = "1.7.2" %}
 
 package:
   name: cis
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
-  sha256: adb0c5de1b828b1e1e9c1d1b7996ca4a9c7cbf01c8b80987427a5f723a89cc8a
+  sha256: ffd29d7a559a96451766bd18358a11f44b6bebe4564bb7f79cf3affe81c1509d
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -50,7 +50,7 @@ about:
   home: http://www.cistools.net
   license: LGPL-3.0
   license_file: COPYING
-  summary: 'Community Inter-comparison Suite'
+  summary: Community Inter-comparison Suite
 
 extra:
   recipe-maintainers:
