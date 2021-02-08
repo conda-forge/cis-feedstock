@@ -5,11 +5,9 @@ Home: http://www.cistools.net
 
 Package license: LGPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cis-feedstock/blob/master/LICENSE.txt)
 
 Summary: Community Inter-comparison Suite
-
-
 
 Current build status
 ====================
