@@ -1,4 +1,4 @@
-{% set version = "1.7.2" %}
+{% set version = "1.7.3" %}
 
 package:
   name: cis
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
-  sha256: ffd29d7a559a96451766bd18358a11f44b6bebe4564bb7f79cf3affe81c1509d
+  sha256: f778568925d252437e1791496472a7336471713d9d7f60d82108e2a0e8ab31f1
 
 build:
   number: 0
@@ -16,9 +16,9 @@ requirements:
   host:
     - python
     - pip
-    - matplotlib >=2,<3
+    - matplotlib >=2
     - netcdf4 >=1.0
-    - numpy >=1.10,<1.16
+    - numpy >=1.10
     - scipy
     - iris >=2.0.0
     - pyhdf  # [not win]
@@ -27,7 +27,7 @@ requirements:
     - pyhamcrest
   run:
     - python
-    - matplotlib >=2,<3
+    - matplotlib >=2
     - netcdf4 >=1.0
     - {{ pin_compatible('numpy') }}
     - scipy
