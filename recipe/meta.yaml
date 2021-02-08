@@ -16,9 +16,9 @@ requirements:
   host:
     - python
     - pip
-    - matplotlib >=2,<3
+    - matplotlib >=2
     - netcdf4 >=1.0
-    - numpy >=1.10,<1.16
+    - numpy >=1.10
     - scipy
     - iris >=2.0.0
     - pyhdf  # [not win]
@@ -27,7 +27,7 @@ requirements:
     - pyhamcrest
   run:
     - python
-    - matplotlib >=2,<3
+    - matplotlib >=2
     - netcdf4 >=1.0
     - {{ pin_compatible('numpy') }}
     - scipy
