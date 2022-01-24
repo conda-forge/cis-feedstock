@@ -1,4 +1,4 @@
-{% set version = "1.7.3" %}
+{% set version = "1.7.4" %}
 
 package:
   name: cis
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
-  sha256: f778568925d252437e1791496472a7336471713d9d7f60d82108e2a0e8ab31f1
+  sha256: 1be4fadbb8b79538a4d2062f40f7272408369b89f181f66b3da9b005525c958f
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
