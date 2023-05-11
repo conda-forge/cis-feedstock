@@ -1,11 +1,11 @@
-About cis
-=========
+About cis-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cis-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.cistools.net
 
 Package license: LGPL-3.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cis-feedstock/blob/main/LICENSE.txt)
 
 Summary: Community Inter-comparison Suite
 
