@@ -1,4 +1,4 @@
-{% set version = "1.7.5b" %}
+{% set version = "1.7.7" %}
 
 package:
   name: cis
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz
-  sha256: 88b9a0ca9535830bb91b1c8cf4228f69c39435daa1108d02db715a69e065f6b2
+  sha256: 7fbb0216b051a7e5e55ef8b9bc8568f19623d2173aafb55d016b2478ffb4165a
 
 build:
   number: 0
